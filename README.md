@@ -1,11 +1,6 @@
 # Impulse
 ## Modern Denial-of-service ToolKit
 
-# :computer: Main window
-<p align="center">
-  <img src="https://i.ibb.co/8c1fb1Q/Impulse-Main.png">
-</p>
-
 # :satellite: Methods:
 | Method               |   Target   | Description |
 | ---------------------| -----------|-------------|
@@ -32,7 +27,7 @@
 * Linux:
   * `sudo apt update`
   * `sudo apt install python3 python3-pip git -y`
-  * `git clone https://github.com/LimerBoy/Impulse`
+  * `git clone https://github.com/Transmetal/Impulse`
   * `cd Impulse/`
   * `pip3 install -r requirements.txt`
   * `python3 impulse.py --help`
@@ -40,20 +35,10 @@
 * Termux:
   * `pkg update`
   * `pkg install python3 python3-pip git -y`
-  * `git clone https://github.com/LimerBoy/Impulse`
+  * `git clone https://github.com/Transmetal/Impulse`
   * `cd Impulse/`
   * `pip3 install -r requirements.txt`
   * `python3 impulse.py --help`
 
 # :phone: Example SMS & Call flood:
 ```python3 impulse.py --method SMS --time 20 --threads 15 --target +380123456789```
-
-<p align="center">
-  <img src="https://i.ibb.co/KmPnV9f/Impulse-SMS.png">
-</p>
-
-# :moneybag: Donate:
-**BTC:** `1GvEsEEdD8kfbSia6QR3Hk1G4fzy2mwZE4`  
-**ETH:** `0x4f62ce9632efF28f175aAAdd58B14A0AC053A952`  
-**XMR:** `487sRQv2gBXHVPc59Lkz5j7bgJ28Qy8nPW6hUvRyFWxM84cWzEnmVcWf6MWEQ59BwrP4viyoz6gfqhDPb1yiUx2SUViKVwd`  
-
