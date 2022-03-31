@@ -1,10 +1,5 @@
-# :bomb: Impulse
+# Impulse
 ## Modern Denial-of-service ToolKit
-
-
-<p align="center">
-  <img src="https://i.ibb.co/rFct6QX/LOGO.png">
-</p>
 
 # :computer: Main window
 <p align="center">
