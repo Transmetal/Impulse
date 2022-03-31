@@ -1,7 +1,7 @@
 # Impulse
 ## Modern Denial-of-service ToolKit
 
-# :satellite: Methods:
+# Methods:
 | Method               |   Target   | Description |
 | ---------------------| -----------|-------------|
 | SMS                  | PHONE     | Sends a massive amount of SMS messages and calls to a single target |
@@ -15,7 +15,7 @@
 | Slowloris            | IP:PORT    | Slowloris is a denial-of-service attack program which allows an attacker to overwhelm a targeted server by opening and maintaining many simultaneous HTTP connections between the attacker and the target. |
 | Memcached            | IP:PORT    | A memcached distributed denial-of-service (DDoS) attack is a type of cyber attack in which an attacker attempts to overload a targeted victim with internet traffic. The attacker spoofs requests to a vulnerable UDP memcached* server, which then floods a targeted victim with internet traffic, potentially overwhelming the victim’s resources. While the target’s internet infrastructure is overloaded, new requests cannot be processed and regular traffic is unable to access the internet resource, resulting in denial-of-service. |
 
-# :gift: Installation:
+# Installation:
 * Windows:
   * Download Python 3.8 from [here](https://www.python.org/downloads/release/python-38)
   * Launch installer, click `add python to PATH`
@@ -40,5 +40,5 @@
   * `pip3 install -r requirements.txt`
   * `python3 impulse.py --help`
 
-# :phone: Example SMS & Call flood:
+# Example SMS & Call flood:
 ```python3 impulse.py --method SMS --time 20 --threads 15 --target +380123456789```
